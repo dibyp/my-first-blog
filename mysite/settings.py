@@ -25,7 +25,7 @@ SECRET_KEY = 'm(=r(b)+s52vkm0e$k5migglqm3i7l_+h!mp&=d5*^kbsj&uk0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['dibyp.pythonanywhere.com']
 
 
 # Application definition
