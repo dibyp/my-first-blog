@@ -2,7 +2,7 @@
 {% load staticfiles %}
 <html>
   <head>
-      <title>Aend's blog</title>
+      <title>Secret Chart</title>
       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
       <link href="https://fonts.googleapis.com/css?family=Nova+Oval" rel="stylesheet">
@@ -13,9 +13,19 @@
     {% if user.is_authenticated %}
       <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
     {% endif %}
-      <h1><a href="/">Localist</a></h1>
+      <h1><a href="/">Beauty Tour</a></h1>
     </div>
     <div class="content container">
+      <div class="row">
+        <p>OUR STORY</p>
+        <p>
+          After several years in the industry, co-founders Joy Kang and Sophia Hwang started EUNOGO. Both with the shared goal of creating a safe and reliable platform foreigners can depend on when preparing their medical beauty journeys to Korea. Soon after launching, they realized it was much more than just providing translation and information but curating and processing the information for busy clients.
+        </p>
+
+        <p>
+          We know it can be an emotionally and physically difficult journey to go through and that’s why we provide guidance from the first on-line consultation to recovery care and check-up after the surgery.  Now EUNOGO is established as the go-to service for people wanting premium service and high-quality results from all over the world.
+        </p>
+      </div>
       <div class="row">
         <div class="col-md-8">
         {% block content %}
